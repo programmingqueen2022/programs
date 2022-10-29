@@ -2,12 +2,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n,i;
+    int num,i;
     cout<<"Enter a positive integer: ";
-    cin>>n;
-    cout<<"Factors of the number "<<n<<" are "<<endl;
-    for(i=1;i<=n;i++){
-        if(n%i==0){
+    cin>>num;
+    cout<<"Factors of the number "<<num<<" are "<<endl;
+    for(i=1;i<=num;i++){
+        if(num%i==0){
             cout<<i<<" ";
         }
     }
