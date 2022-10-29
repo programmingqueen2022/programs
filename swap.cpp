@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int a,b,temp;
+    int first,second,temp;
     cout<<"enter a: ";
-    cin>>a;
+    cin>>first;
     cout<<"enter b: ";
-    cin>>b;
-    temp=a;
-    a=b;
-    b=temp;
-    cout<<"a is"<<a<<endl;
-    cout<<"b is"<<b<<endl;
+    cin>>second;
+    temp=first;
+    first=second;
+    second=temp;
+    cout<<"a is"<<first<<endl;
+    cout<<"b is"<<second<<endl;
      
 }
