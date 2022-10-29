@@ -2,18 +2,18 @@
 using namespace std;
 int main()
 {
-    char c;
+    char ch;
     bool isLowercaseVowel,isUppercaseVowel;
     cout<<"enter a alphabet: ";
-    cin>>c;
-    /*isLowercaseVowel=(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-    isUppercaseVowel=(c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+    cin>>ch;
+    /*isLowercaseVowel=(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
+    isUppercaseVowel=(ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
     if (isLowercaseVowel||isUppercaseVowel)*/
-    if(!isalpha(c))
+    if(!isalpha(ch))
     {
         cout<<"invalid";
     }
-    else if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+    else if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
     {
         cout<<"its a vowel"<<endl;
 
