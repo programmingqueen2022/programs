@@ -1,24 +1,24 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float n1,n2;
-    char op;
+    float num1,num2;
+    char operation;
     cout<<"Enter two numbers: ";
-    cin>>n1>>n2;
+    cin>>num1>>num2;
     cout<<"Enter the operation: ";
-    cin>>op;
-    switch(op){
+    cin>>operation;
+    switch(operation){
         case '+':
-        cout<<n1<<"+"<<n2<<" = "<<n1+n2;
+        cout<<num1<<"+"<<num2<<" = "<<num1+num2;
         break;
         case '-':
-        cout<<n1<<"-"<<n2<<" = "<<n1-n2;
+        cout<<num1<<"-"<<num2<<" = "<<num1-num2;
         break;
         case '*':
-        cout<<n1<<"*"<<n2<<" = "<<n1*n2;
+        cout<<num1<<"*"<<num2<<" = "<<num1*num2;
         break;
         case '/':
-        cout<<n1<<"/"<<n2<<" = "<<n1/n2;
+        cout<<num1<<"/"<<num2<<" = "<<num1/num2;
         break;
         default:
         cout<<"Invalid operator!!";
